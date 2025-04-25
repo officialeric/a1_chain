@@ -1,0 +1,91 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "_amount",
+						"type": "int256"
+					}
+				],
+				"name": "addMoney",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "balance",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "money",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "amount",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/myContract.sol": "sample1"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/myContract.sol": {
+			"keccak256": "0x89bef6934f4807406556b3bc356bf41e8fd47058af7d8682ba75fd8d12a6228d",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://fd1be9ae81fc342a75942b1b2de332c2956782d1eb4914a7323920b1321ad216",
+				"dweb:/ipfs/QmQwtS7oDeK3X4pa8QA6krgdnZhuc2x2DkVF3PC1RKHvu4"
+			]
+		}
+	},
+	"version": 1
+}
